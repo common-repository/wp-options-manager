@@ -1,0 +1,378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Options Manager Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-06 15:46+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marc Schieferdecker <m_schieferdecker@hotmail.com>\n"
+"Language-Team: das-motorrad-blog.de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: W:\\motorrad\\html\\wp-content\\plugins\\wp-options-manager\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp_options_manager.php:100
+msgid "WP Options Manager"
+msgstr "WP Options Manager"
+
+#: wp_options_manager.php:134
+msgid "Not debugable:"
+msgstr "Kann nicht debuged werden:"
+
+#: wp_options_manager.php:136
+msgid "Error. Row not found."
+msgstr "Fehler. Datenbankzeile nicht gefunden."
+
+#: wp_options_manager.php:150
+msgid "All selected options were deleted."
+msgstr "Alle ausgewählten Optionen wurden gelöscht."
+
+#: wp_options_manager.php:152
+msgid "That was easy. You selected no options for deletion."
+msgstr "Das war einfach. Du hast nämlich keine Optionen zum Löschen ausgewählt."
+
+#: wp_options_manager.php:164
+msgid "Setup saved."
+msgstr "Einstellungen gespeichert."
+
+#: wp_options_manager.php:173
+msgid "Search options in the database table"
+msgstr "Suche Optionen in der Datenbanktabelle"
+
+#: wp_options_manager.php:178
+#: wp_options_manager.php:408
+msgid "Please enter a search term"
+msgstr "Bitte gib einen Suchbegriff ein"
+
+#: wp_options_manager.php:182
+msgid "Search in option values also?"
+msgstr "Werte der Optionen durchsuchen?"
+
+#: wp_options_manager.php:184
+#: wp_options_manager.php:192
+msgid "No, please not"
+msgstr "Nein, bitte nicht"
+
+#: wp_options_manager.php:185
+#: wp_options_manager.php:191
+msgid "Yes, do that!"
+msgstr "Klar, mach das!"
+
+#: wp_options_manager.php:189
+msgid "Hide WP default options?"
+msgstr "WP Standardoptionen verstecken?"
+
+#: wp_options_manager.php:196
+msgid "Search options"
+msgstr "Suche nach Optionen"
+
+#: wp_options_manager.php:199
+msgid "Hint: You don't have to enter a search term. Use a blank search term and search with \"hide default entrys\" set to \"yes\" to see all options not from WordPress itself."
+msgstr "Tipp: Du brauchst keinen Suchbegriff eingeben. Lass den Suchbegriff leer, stelle \"Standardoptionen verstecken\" auf \"Ja\", dann siehst du alle Optionen, die nicht zu WordPress selbst gehören."
+
+#: wp_options_manager.php:213
+msgid "Number of entrys found:"
+msgstr "Anzahl der gefundenen Einträge:"
+
+#: wp_options_manager.php:215
+msgid "Maybe not all of the entrys will be displayed, because you activated the \"Hide default options\" feature."
+msgstr "Möglicherweise werden nicht alle dieser Einträge angezeigt, weil du \"Standardoptionen verstecken\" aktiviert hast."
+
+#: wp_options_manager.php:217
+#: wp_options_manager.php:386
+msgid "Are you really sure that you want to delete the selected options? You know what you are doing?"
+msgstr "Bist du wirklich sicher, dass du die ausgewählten Optionen löschen möchtest? Du weißt was du tust?"
+
+#: wp_options_manager.php:221
+#: wp_options_manager.php:344
+msgid "Option ID"
+msgstr "Option ID"
+
+#: wp_options_manager.php:221
+#: wp_options_manager.php:344
+#: wp_options_manager.php:511
+msgid "Option name"
+msgstr "Name der Option"
+
+#: wp_options_manager.php:221
+#: wp_options_manager.php:344
+msgid "Option value"
+msgstr "Wert der Option"
+
+#: wp_options_manager.php:221
+#: wp_options_manager.php:344
+msgid "Autoloaded?"
+msgstr "Autoladen?"
+
+#: wp_options_manager.php:221
+#: wp_options_manager.php:344
+msgid "Choose action"
+msgstr "Wähle Aktion"
+
+#: wp_options_manager.php:231
+#: wp_options_manager.php:359
+#: wp_options_manager.php:528
+msgid "Plugin:"
+msgstr "Plugin:"
+
+#: wp_options_manager.php:233
+#: wp_options_manager.php:361
+msgid "WordPress internal"
+msgstr "WordPress intern"
+
+#: wp_options_manager.php:234
+#: wp_options_manager.php:367
+#: wp_options_manager.php:374
+msgid "Really delete this option?! You know what you are doing?!"
+msgstr "Diese Option wirklich löschen?! Du weißt, was du tust?!"
+
+#: wp_options_manager.php:234
+#: wp_options_manager.php:367
+#: wp_options_manager.php:374
+msgid "delete"
+msgstr "löschen"
+
+#: wp_options_manager.php:234
+#: wp_options_manager.php:367
+#: wp_options_manager.php:374
+msgid "debug"
+msgstr "debug"
+
+#: wp_options_manager.php:239
+#: wp_options_manager.php:389
+msgid "Delete all selected options"
+msgstr "Lösche alle ausgewählten Optionen"
+
+#: wp_options_manager.php:242
+#: wp_options_manager.php:492
+msgid "Sorry, nothing found."
+msgstr "Sorry, nichts gefunden."
+
+#: wp_options_manager.php:254
+msgid "Autosearch deprecated options"
+msgstr "Automatisch nach veralteten Optionen suchen"
+
+#: wp_options_manager.php:256
+msgid "What we do here? We will search all plugin files for options used by the plugin and match it against the entrys of the WordPress options database table."
+msgstr "Was machen wir hier? Wir durchsuchen alle Plugindateien nach Optionen, die von den Plugins benutzt werden und prüfen diese gegen die Einträge der WordPress Optionstabelle in der Datenbank."
+
+#: wp_options_manager.php:257
+msgid "Show options that are unsecure to delete, or be strict?"
+msgstr "Sollen auch Dinge gezeigt werden, deren Löschung unsicher ist, oder sind wir exakt?"
+
+#: wp_options_manager.php:259
+msgid "No, please be strict!"
+msgstr "Nein, bitte sei sehr genau!"
+
+#: wp_options_manager.php:260
+msgid "Okay, show me the risky things too!"
+msgstr "Okay, zeig mir die risikoreichen Dinge auch!"
+
+#: wp_options_manager.php:262
+#: wp_options_manager.php:410
+msgid "What plugins should be determined?"
+msgstr "Welche Plugins sollen untersucht werden?"
+
+#: wp_options_manager.php:264
+#: wp_options_manager.php:412
+msgid "Only activated plugins"
+msgstr "Nur aktivierte Plugins"
+
+#: wp_options_manager.php:265
+#: wp_options_manager.php:413
+msgid "All installed plugins"
+msgstr "Alle installierten Plugins"
+
+#: wp_options_manager.php:267
+msgid "Match all plugins against options"
+msgstr "Die Plugins nun mit den Optionen vergleichen"
+
+#: wp_options_manager.php:341
+msgid "Number of total options found:"
+msgstr "Anzahl der gesamt geladenen Optionen:"
+
+#: wp_options_manager.php:355
+msgid "Warning! Recognized accessed option!"
+msgstr "Achtung! Automatisch gesammelte Option!"
+
+#: wp_options_manager.php:355
+msgid "Last access:"
+msgstr "Letzter Zugriff:"
+
+#: wp_options_manager.php:366
+msgid "Maybe you can delete this:"
+msgstr "Vielleicht kannst du das hier löschen:"
+
+#: wp_options_manager.php:373
+msgid "Insecure to delete:"
+msgstr "Das zu löschen ist gefährlich:"
+
+#: wp_options_manager.php:382
+msgid "Options with no match in any plugin file:"
+msgstr "Optionen ohne jeden Treffer in einer Plugindatei:"
+
+#: wp_options_manager.php:382
+msgid "This does not mean, that there isn't any plugin that uses the options! Check before you delete!"
+msgstr "Das bedeutet nicht, dass es kein Plugin gibt, dass diese Option benutzt! Vor dem Löschen prüfen!"
+
+#: wp_options_manager.php:384
+msgid "Options with no direct match in any plugin file, but with some similarities:"
+msgstr "Optionen mit keinem direkten Treffen in irgendeiner Plugindatei, aber mit gewissen Ähnlichkeiten:"
+
+#: wp_options_manager.php:384
+msgid "Check before you delete this options!"
+msgstr "Vor dem Löschen unbedingt überprüfen!"
+
+#: wp_options_manager.php:391
+msgid "Hint: You can click the name of an option and search in all active plugin files for that term to check if that option is found in any plugin source code."
+msgstr "Tipp: Du kann auf den Namen einer Option klicken und in allen aktiven Plugindateien nach diesem Suchbegriff suchen, um zu Prüfen ob diese Option in irgendwelchem Plugin Quellcode gefunden wird."
+
+#: wp_options_manager.php:393
+msgid "Sorry, nothing found in the options table?"
+msgstr "Sorry, in der Optionstabelle steht nichts?"
+
+#: wp_options_manager.php:405
+msgid "Search for term in plugin source files"
+msgstr "Suche in allen Plugin Quelldateien nach einem Begriff"
+
+#: wp_options_manager.php:407
+msgid "What we do here? We will search all plugin files for your searchterm. Maybe you can identify some unknown options this way."
+msgstr "Was machen wir hier? Wir durchsuchen alle Plugindateien nach deinem Suchbegriff. Vielleicht kannst du so unbekannte Optionen indentifizieren."
+
+#: wp_options_manager.php:415
+msgid "Search plugin source files"
+msgstr "Durchsuche die Quelldateien"
+
+#: wp_options_manager.php:479
+msgid "Number of total hits found:"
+msgstr "Anzahl der gesamten Funde:"
+
+#: wp_options_manager.php:479
+msgid "file(s)"
+msgstr "Datei(en)"
+
+#: wp_options_manager.php:484
+msgid "Plugin file"
+msgstr "Plugindatei"
+
+#: wp_options_manager.php:484
+msgid "Number of hits total"
+msgstr "Anzahl der Treffer"
+
+#: wp_options_manager.php:484
+msgid "Code snippet of first hit in source file"
+msgstr "Codeschnipsel des ersten Treffers in der Quelldatei"
+
+#: wp_options_manager.php:502
+msgid "Automatically collected accessed options"
+msgstr "Automatisch gesammelte benutzte Optionen"
+
+#: wp_options_manager.php:504
+msgid "Here you see a list of all options your WordPress installation definitly used in the past. The timestamp (MM/DD/YY HH:MM) describes when the option was last accessed."
+msgstr "Hier siehst du eine Liste aller Optionen, die deine WordPress Instalaltion in der Vergangenheit definitiv benutzt hat. Der Zeitstempel (MM/TT/JJ SS:MM) beschreibt, wann auf die Option das letzte Mal zugegriffen wurde."
+
+#: wp_options_manager.php:511
+msgid "Last access"
+msgstr "Letzter Zugriff"
+
+#: wp_options_manager.php:533
+msgid "Options stored in datafile."
+msgstr "Optionen in der Datendatei gespeichert."
+
+#: wp_options_manager.php:534
+msgid "Legend:"
+msgstr "Legende:"
+
+#: wp_options_manager.php:534
+msgid "not older than 7 days"
+msgstr "nicht älter als 7 Tage"
+
+#: wp_options_manager.php:534
+msgid "older than 7 days"
+msgstr "älter als 7 Tage"
+
+#: wp_options_manager.php:534
+msgid "older than 14 days"
+msgstr "älter als 14 Tage"
+
+#: wp_options_manager.php:534
+msgid "older than 30 days"
+msgstr "älter als 30 Tage"
+
+#: wp_options_manager.php:535
+msgid "Note: Some plugin options can't be collected automatically (see faq)."
+msgstr "Hinweis: Einige Optionen von Plugins können nicht automatisch gesammelt werden (siehe FAQ)."
+
+#: wp_options_manager.php:537
+msgid "Oops, no datafile found. Maybe you have disabled this feature."
+msgstr "Oops, keine Datendatei gefunden. Naja, vielleicht hast du dieses Feature deaktiviert."
+
+#: wp_options_manager.php:548
+msgid "Plugin setup"
+msgstr "Plugin Einstellungen"
+
+#: wp_options_manager.php:550
+msgid "Automatically collect data about accessed options?"
+msgstr "Automatisch Daten über benutzte Optionen sammeln?"
+
+#: wp_options_manager.php:551
+msgid "Activate to enable this feature. Deactivate to disable. On deactivation the datafile will be deleted."
+msgstr "Setze einen Haken um dieses Feature zu aktivieren. Entferne den Haken zum Deaktivieren. Bei Deaktivierung wird die Datendatei gelöscht."
+
+#: wp_options_manager.php:552
+msgid "Set options"
+msgstr "Einstellungen speichern"
+
+#: wp_options_manager.php:562
+msgid "Donate &amp; support"
+msgstr "Spenden &amp; Hilfe"
+
+#: wp_options_manager.php:564
+msgid "Please"
+msgstr "Bitte"
+
+#: wp_options_manager.php:564
+msgid "DONATE"
+msgstr "SPENDE"
+
+#: wp_options_manager.php:564
+msgid "if you like this plugin."
+msgstr "wenn du dieses Plugin toll findest."
+
+#: wp_options_manager.php:565
+msgid "If you need support, want to report bugs or suggestions, drop me an "
+msgstr "Wenn du Hilfe brauchst, Bugs melden, oder Vorschläge machen willst, schreib mir eine "
+
+#: wp_options_manager.php:565
+msgid "email"
+msgstr "E-Mail"
+
+#: wp_options_manager.php:565
+msgid "or visit the"
+msgstr "oder besuche die"
+
+#: wp_options_manager.php:565
+msgid "plugin homepage"
+msgstr "Plugin Webseite"
+
+#: wp_options_manager.php:566
+msgid "Translations: "
+msgstr "Übersetzungen:"
+
+#: wp_options_manager.php:567
+msgid "And this persons I thank for a donation:"
+msgstr "Und diesen Personen danke ich für eine Spende:"
+
+#: wp_options_manager.php:568
+msgid "Final statements: Code is poetry. Motorcycles are cooler than cars."
+msgstr "Abschließende Statements: Code is poetry. Motorräder sind cooler als Autos."
+
+#: wp_options_manager.php:699
+msgid "unknown"
+msgstr "unbekannt"
+
